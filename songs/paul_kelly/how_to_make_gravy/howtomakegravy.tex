@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{lilyglyphs}
+\usepackage{gchords}
+\usepackage{hyperref}
+\usepackage[chorded]{songs}
+\newindex{titleidx}{cbtitle}
+
+\begin{document}
+\setlength{\parindent}{0pt}
+
+
+\section{Paul Kelly - How To Make Gravy}
+
+Listen here: \url{https://www.youtube.com/watch?v=iYqIF2XkqKU}
+
+This is a good beginner song for many reasons:
+
+\begin{itemize}
+    \item It doesn't need \textit{bar chords}
+    \item It's easy to strum because you always play all six strings
+    \item The only finger that comes off the fretboard is the middle finger
+    \item You're constantly sliding your fretting hand up and down the neck, which will get you some big, juicy calluses
+    \item It's a Christmas song
+    \item It's written by an Australian
+    \item It sounds good
+\end{itemize}
+
+
+There are only two chord shapes needed, E major and E minor.  These are moved up and down the neck while playing open E and B strings.  This effect, where one or more strings plays the same note continuously, is called a \textbf{drone}.
+
+\subsection{Chords Used}
+
+\def\numfrets{5}
+\mediumchords
+
+\chords{
+    \chord{t}{o,f3p2,f4p2,f2p1,o,o}{E}
+    \chord{t}{o,f3p4,f4p4,f1p2,o,o}{F\textsuperscript{\sharp{}}m}
+    \chord{3}{o,f3p3,f4p3,f1p1,o,o}{G\textsuperscript{\sharp{}}m}
+    \chord{4}{o,f3p2,f4p2,f2p1,o,o}{A}
+    \chord{6}{o,f3p2,f4p2,f2p1,o,o}{B}
+}
+
+\subsection{The Song}
+
+The first two verses are overleaf, the chords just repeat throughout the rest.
+
+\bigskip
+
+The strumming pattern will be difficult to begin with, just strum whatever rhythm you want, straight fours will do.
+
+\begin{songs}{titleidx}
+\beginsong{How To Make Gravy}[
+    by={Paul Kelly}]
+\beginverse
+\[E]Hello Dan, it's \[F#m]Joe here.
+\[G#m]I hope you're keeping \[F#m]well.
+\[E]It’s the 21st of Dec\[F#m]ember,
+\[G#m]now they’re ringing the last \[F#m]bell.
+\[A]If I get good be\[G#m]haviour
+\[A]I'll be out of here by Ju\[B]ly.
+\[E]Won’t you kiss my kids on \[F#m]Christmas day?
+\[G#m]Please \[F#m]don't let them cry.\[E]
+\endverse
+\beginverse
+^I guess the brothers are driving down from ^Queensland
+^and Stella's flying in from the ^coast.
+^They say it's gonna be a hundred ^degrees, even more maybe,
+^but that won't ^stop the roast.
+^Who's gonna make the ^gravy now?
+^I bet it won't taste the ^same.
+^Just add flour, salt, ^a little red wine and don't forget a
+^dollop of tomato sauce for sweetness ^and that extra tang.
+\endverse
+\endsong
+\end{songs}
+
+\end{document}
